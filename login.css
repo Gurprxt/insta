@@ -1,0 +1,401 @@
+.row{
+    height: 600px;
+}
+.image{
+    width: 80%;
+    height: 600px;
+    background-image: url(images/home-phones.png);
+    position: relative;
+    background-size: cover;
+   
+}
+
+.image-2 .img-1{
+    width: 242px;
+    margin-left: 144px;
+    margin-top: 19px;
+    height: 520px;
+    animation: phone 5s infinite;
+   position: relative;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+}
+
+
+@keyframes phone {
+    0%{
+        background-image: url(images/screenshot1.pngx);
+        
+    }
+
+    25%{
+        background-image: url(images/screenshot2.png);
+        
+    }
+
+    50%{
+        background-image: url(images/screenshot3.png);
+    }
+
+    100%{
+        background-image: url(images/screenshot4.png);
+    }
+}
+
+/* @media screen and (max-width:480px) {
+    .image-2 .img-1{
+        margin-left: 144px;
+        margin-top: 19px;
+        height: 800px;
+        animation: phone 5s infinite;
+       display: none;
+    }
+} */
+.main-2{
+   box-shadow: 0px 0px 0px 1px black;
+    width: 33%;
+    height: 400px;
+}
+.logo img{
+    height: 80px;
+    margin-left: 109px;
+    margin-top: 20px;
+}
+.input-1 input{
+    width: 291px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.input-2 input{
+    width: 291px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.button button{
+    width: 291px;
+    height: 39px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1b74e4;    
+    outline: none;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.button a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+}
+.or img{
+    height: 39px;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+.line img{
+    height: 45px;
+    margin-top: -41px;
+    margin-left: -56px;
+    float: right;
+}
+.fb{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+}
+.fb-logo{
+    width: 40%;
+    height: 50px;
+    /* background-color: red; */
+    float: left;
+}
+.fb img{
+    height: 34px;
+    margin-left: 99px;
+    margin-top: 14px;
+   
+}
+.fb-name{
+    width: 60%;
+    height: 50px;
+    /* background-color:  blue; */
+    float: left;
+    margin-top: 13px;
+    margin-left: -10px;
+}
+.fb-name a{
+    margin-left: 11px;
+    text-decoration: none;
+    color: #385185;
+}
+.password a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: #385185;
+}
+.main-3{
+    width: 378px;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    margin-left: -13px;
+    margin-top: 18px;
+    box-shadow: 0px 0px 0px 1px black;
+}
+.main-3 p{
+    padding: 18px;
+   text-align: center;
+    font-size: 14px;
+}
+.main-3 a{
+    text-decoration: none;
+}
+.main-4 p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-4 img{
+    height: 37px;
+    margin-left: 49px;
+    
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    /* background-color: #989638; */
+}
+.last ul li{
+    list-style-type: none;
+    margin: 7px;
+    float: left;
+    font-size: 12px;
+   
+}
+.last a{
+    text-decoration: none;
+    color: #1c1e21;
+}
+.line:hover{
+    text-decoration: underline;
+}
+.footer-1{
+    width: 100%;
+    height: 40px;
+    /* background-color: brown; */
+}
+.select{
+   margin-left: 520px;
+}
+.select select option{
+    box-shadow: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.meta{
+    margin-left: 700px;
+    margin-top: -22px;
+    font-size: 12px;
+    color: #1c1e21;
+}
+
+
+@media screen and (max-width:870px) {
+    .main-3{
+        box-shadow: 0px 0px 0px 1px black;
+        width: 275px;
+        height: 50px;
+    }
+    
+
+    
+    .footer{
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+    
+
+
+    .footer-1{
+        margin-top: 30px;
+        margin-left: -350px;
+    }
+    .image{
+        display: none;
+    } 
+    .main-2 {
+        box-shadow: 0px 0px 0px 1px black;
+        width: 90%;
+        height: 400px;
+        margin-left: 25px;
+    
+    }
+    .main-3{
+        width: 356px;
+    }
+    
+}
+
+@media screen and (max-width:820px) {
+    .logo img{
+        margin-left: 195px;
+    }
+    
+    /* .input-1 input{
+        width: 406px;
+        margin-left: 109px;
+    }
+
+    .input-2 input{
+        width: 406px;
+        margin-left: 109px;
+    } */
+    .input-1 input {
+        width: 355px;
+        height: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        outline: none;
+        margin-left: 112px;
+        margin-top: 10px;
+    }
+    .input-2 input {
+        width: 355px;
+        height: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        outline: none;
+        margin-left: 113px;
+        margin-top: 10px;
+    }
+    .button button{
+        width: 355px;
+        margin-left: 113px;
+    }
+    .or img{
+        margin-left: 17px;
+        width: 268px;
+    }
+   .line img{
+    width: 298px;
+   }
+   .main-4 img {
+    height: 37px;
+    margin-left: 185px;
+    }
+    .fb-logo img{
+        height: 30px;
+        margin-left: 211px;
+    }
+    .password{
+        margin-left: 130px;
+    }
+    .main-3{
+        width: 652px;
+    }
+}
+@media screen and (max-width:480px) {
+    .image{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:390px) {
+    .container{
+        width: 101%;
+    }
+    .row{
+        height: 428px;
+    }
+    .image{
+        display: none;
+    } 
+    .main-2{
+        box-shadow: 0px 0px 0px 1px black;
+        width: 69%;
+        height: 400px;
+        margin-left: 88px;
+
+    }
+    .logo{
+        margin-left: -10px;
+
+    }
+    .logo img {
+        margin-left: 73px;
+    }
+    .input-1 input{
+        margin-left: 5px;
+        width: 242px !important;
+    }
+    .input-2 input{
+        margin-left: 5px;
+        width: 242px;
+    }
+    .button button{
+        margin-left: 5px;
+        width: 242px;
+    }
+    .or img{
+        width: 88px;
+        margin-left: 20px;
+    }
+    .line img{
+        width: 107px;
+    }
+
+    .password{
+        margin-left: 165px;
+    }
+    .fb img{
+        height: 27px;
+        margin-left: 86px;
+        margin-top: 10px;
+    }
+    .fb-logo{
+        margin-left: -62px;
+    }
+    .fb name{
+        font-size: 15px;
+    }
+    .fb-name {
+        width: 64%;
+        height: 44px;
+        /* background-color: blue; */
+        float: left;
+        margin-top: 8px;
+        margin-left: 14px
+    }
+    .password{
+        margin-left: -58px;
+    }
+    .main-3{
+        box-shadow: 0px 0px 0px 1px black;
+        width: 270px;
+        height: 50px;
+        margin-top: 25px;
+    }
+    .main-4{
+        display: none;
+    }
+    .footer{
+    display: none;
+    }   
+    .footer-1{
+        display: none;
+    }
+
+    .main-4 img{
+        margin-left: 185px;
+    }
+
+ }
+
+
+
+
+

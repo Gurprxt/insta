@@ -1,0 +1,947 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.ipad{
+    display: none;
+}
+.left-main{
+    width: 20%;
+    height: 608px;
+    /* background-color: brown; */
+    float: left; 
+}
+.leftside{
+    position: fixed;
+
+}
+.insta-logo img{
+    height: 77px;
+    margin-left: 21px;
+    margin-top: 10px;
+}
+.home-1{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+}
+.home-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 4px;
+}
+.home img{
+    height: 30px;
+    margin-left: 4px;
+}
+.home a{
+    font-size: 24px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.search-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 19px;
+}
+.search-logo img{
+    height: 30px;
+    margin-left: 16px;
+}
+.search-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 12px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.search-name a{
+   text-decoration: none;
+   color: black;
+   
+}
+.explore-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 73px;
+    margin-left: -209px;
+}
+.explore-logo img{
+    height: 36px;
+    margin-left: 59px;
+}
+.explore-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 20px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.explore-name a{
+    text-decoration: none;
+    color: black;
+}
+.reels-logo{
+        width: 26%;
+        height: 37px;
+        /* background-color: white; */
+        float: left;
+        margin-top: 27px;
+}
+.reels-logo img{
+    height: 33px;
+    margin-left: 12px;
+}
+.reels-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 23px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.reels-name a{
+   
+    text-decoration: none;
+    color: black;
+}
+.message-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 88px;
+    margin-left: -197px;
+}
+.message-logo img{
+    height: 34px;
+    margin-left: 45px;
+}
+.message-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 24px;
+    font-size: 26px
+}
+.message-name a{
+    text-decoration: none;
+    color: black;
+}
+.notifications-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 27px;
+}
+.notifications-logo img{
+    height: 37px;
+    margin-left: 19px;
+
+}
+.notifications-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 23px;
+    font-size: 26px;
+    margin-left: -2px;
+}
+.notifications-name a{
+    text-decoration: none;
+    color: black;
+}
+.create-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 88px;
+    margin-left: -197px;
+}
+.create-logo img{
+    height: 37px;
+    margin-left: 13px;
+}
+.create-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 24px;
+    font-size: 26px
+}
+.create-name a{
+    text-decoration: none;
+    color: black;
+}
+.profile-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 27px;
+}
+.profile-logo img{
+    height: 37px;
+    margin-left: 19px;
+    border-radius: 50%;
+}
+.profile-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 23px;
+    font-size: 26px;
+    margin-left: -2px;
+}
+.profile-name a{
+    text-decoration: none;
+    color: black;
+}
+.more-logo{
+    width: 26%;
+    height: 37px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 88px;
+    margin-left: -197px;
+}
+.more-logo img{
+    height: 37px;
+    margin-left: 14px;
+
+}
+.more-name{
+    width: 50%;
+    height: 37px;
+    /* background-color: magenta; */
+    float: left;
+    margin-top: 24px;
+    font-size: 26px
+}
+.more-name a{
+    text-decoration: none;
+    color: black;
+}
+.left-logo ul li{
+    list-style-type: none;
+}
+.left-logo ul li img{
+    height: 25px;
+    margin: 10px;
+    margin-left: -13px;
+    margin: 25px 0px 23px -10px;
+    
+}
+.left-logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.h5{
+    margin-left: 31px;
+    margin-top: -48px;
+}
+
+.middle{
+    width: 48%;
+    height: auto;
+    /* background-color: chartreuse; */
+    float: left;
+    box-shadow: 0px 0px 16px -10px black;
+}
+.storyspace{
+    width: 100%;
+    height: 122px;
+    /* background-color: beige; */
+    margin-left: 0px;
+
+}
+.story1{
+    width: 68px;
+    height: 68px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    border-radius: 50px;
+    float: left;
+}
+
+.post-header{
+    width: 68%;
+    height: 60px;
+    /* background-color: brown; */
+    margin-top: 50px;
+    margin: 56px 100px;
+}
+.worldcup-logo{
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 12px;
+    float: left;
+}
+.worldcup-logo img{
+    height: 41px;
+    border-radius: 50px;
+}
+.icc-logo{
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 28px;
+    margin-top: 14px;
+    /* z-index: 999; */
+    position: absolute;
+    
+}
+.icc-logo img{
+    height: 41px;
+    margin-left: -9px;
+}
+.names{
+    float: left;
+    margin-left: 24px;
+    margin-top: 17px;
+
+}
+.names span{
+    font-weight: 600;
+}
+.names img{
+    height: 9px;
+    margin-top: -3px;
+}
+.dot-right img{
+    margin-left: 402px;
+    margin-top: -42px;
+    height: 56px;
+    float: left;
+}
+.post{
+    width: 68%;
+    height: 580px;
+    /* background-color: rgb(49, 53, 46);  */
+    margin: -56px 100px;
+}
+.rohit-img img{
+    height: 580px;
+    width: 458px;
+}
+.footer-icc{
+    width: 68%;
+    height: 48px;
+    /* background-color: crimson; */
+    margin: 56px 100px;
+}
+.like img{
+    height: 26px;
+    margin-top: 10px
+}
+
+.comment img{
+    margin-left: 34px;
+    height: 26px;
+    margin-top: -54px;
+}
+.share img{
+    height: 26px;
+    margin-left: 71px;
+    margin-top: -101px;
+}
+.save img{
+    height: 26px;
+    float: right;
+    margin-top: -72px;
+}
+.likes-section{
+    width: 68%;
+    height: 28px;
+    /* background-color: crimson; */
+    margin: -56px 100px;
+} 
+.likes-section p{
+    font-weight: 500;
+}
+.caption-section{
+    width: 68%;
+    height: 33px;
+    /* background-color: crimson; */
+    margin: 56px 100px;
+}
+.caption-name p{
+    font-weight: 500;
+    float: left;
+}
+.caption-name h6{
+    padding: 10px;
+    margin-left: 17px;
+    font-weight: 400;
+}
+.view-comment{
+    width: 100%;
+    height: 36px;
+    /* background-color: crimson; */
+    margin: -10px -3px;
+}
+.view-comment1 p{
+    padding: 11px 0px 0px 2px;
+    font-weight: 400;
+}
+.add-comment{
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(20, 40, 220); */
+    margin: 10px -3px;
+}
+.add-comment1 img{
+    height: 20px;
+    float: right;
+    margin-top: -35px;
+}
+.karan-img{
+    height: 450px;
+}
+.karan-logo{
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 12px;
+    float: left;
+}
+.karan-logo img{
+    margin-left: 0px;
+    width: 37px;
+    height: 37px;
+    border-radius: 38px;
+}
+.names p{
+    margin-left: -9px;
+    float: left;
+    font-weight: 600;
+}
+.footer-karan{
+    height: 26px;
+    margin-top: 22px;
+    margin: 68px 110px;
+}
+.caption-name img{
+    height: 28px;
+    margin-top: 7px;
+}
+.caption-name h5{
+    margin-left: 25px;
+    font-size: 19px;
+    margin-top: 70px;
+
+}
+.caption-name h6{
+    margin-left: 155px;
+    margin-top: -33px;
+}
+.story1 img{
+    height: 61px;
+    width: 61px;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.story1 p{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.right-main{
+    width: 30%;
+    height: 500px;
+    /* background-color: cornflowerblue; */
+    float: left;
+    margin-left: 20px;
+}
+.right-profile{
+    width: 100%;
+    height: 100px;
+    /* background-color: darkgoldenrod; */
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 22px 13px;
+    float: left;
+}
+.circle img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.circle-name{
+   padding: 27px 0px 1px 2px;
+}
+.circle-name a{
+    text-decoration: none;
+    color: black;
+}
+.circle-name h6{
+    margin-top: -30px;
+    font-weight: 400;
+}
+.switch a{
+    float: right;
+    margin-top: -36px;
+    text-decoration: none;
+}
+.suggestion{
+    width: 100%;
+    height: 48px;
+    /* background-color: brown; */
+}
+.suggestion p{
+    float: left;
+    margin-top: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.suggestion h6{
+    float: right;
+    padding: 13px;
+}
+.suggest-id{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(172, 183, 153); */
+}
+.id1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    /* background-color: white; */
+}
+.id1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 2px;
+    float: left;
+}
+.id-name p{
+    margin-left: 47px;
+    margin-top: -35px;
+    font-weight: 500;
+}
+.id-name h6{
+    margin-left: 47px;
+    margin-top: -18px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.follow a{
+    float: right;
+    margin-top: -45px;
+    padding: 9px;
+    text-decoration: none;
+}
+.last ul li{
+    float: left;
+    font-size: 10px;
+    margin: 2px 10px;
+    list-style-type: none;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.last ul li:hover{
+    text-decoration: underline;
+}
+.meta{
+    float: inline-start;
+    margin-top: 11px;
+    padding: 10px 38px;
+}
+.ipad{
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .ipad{
+        display: block;
+    }
+    .right-main{
+        width: 13%;
+        height: 650px;
+        /* background-color: brown; */
+    }
+    .middle{
+        width: 80%;
+        height: auto;
+        /* background-color: burlywood; */
+    }
+    .insta-logo img{
+        height: 31px;
+        margin-left: 40px;
+    }
+    .left-logo ul li img {
+        height: 25px;
+        margin: 57px 0px -9px 10px;
+    }
+    .ipad-stry{
+        width: 100%;
+        height: 120px;
+        /* background-color: brown; */
+    }
+    .ipad-post-hd{
+        width: 100%;
+        height: 70px;
+        /* background-color: aqua; */
+        margin-top: -40px;
+    }
+    .rohit-img img {
+        height: 484px;
+        width: 458px;
+         margin-top: 14px;
+    }
+    .ipad-footer{
+        width: 100%;
+        height: 60px;
+        /* background-color: bisque; */
+        margin-top: -94px;
+    }
+    .like img {
+        height: 26px;
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+    .comment img {
+        margin-left: 41px;
+        height: 26px;
+        margin-top: -54px;
+    }
+    .share img {
+        height: 26px;
+        margin-left: 77px;
+        margin-top: -101px;
+    }
+    .ipad-likes{
+        width: 100%;
+        height: 40px;
+        /* background-color: brown; */
+        margin-top: 37px;
+    }
+    .likes-section p{
+        margin-left: 8px;
+        font-size: 500;
+    }
+    .ipad-caption{
+        width: 100%;
+        height: 100px;
+        /* background-color: cadetblue; */
+        margin-top: -73px;
+    }
+    .like{
+        margin-top: 87px;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .desktop{
+        display: none;
+    }
+    .ipad{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .footer-karan {
+        height: 26px;
+        margin-top: 22px;
+        
+    }
+    .like img {
+        height: 26px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    .post{
+        width: 119%;
+        margin-left: -58px;
+    }
+    .p-header{
+        width: 100%;
+        height: 70px;
+        /* background-color: brown; */
+    }
+    .p-insta-logo{
+        width: 30%;
+        height: 70px;
+        /* background-color: burlywood; */
+        float: left;
+    }
+    .p-insta-logo img{
+        height: 60px;
+        float: left;
+        margin-top: 11px;
+    }
+    .search{
+        width: 50%;
+        height: 70px;
+        /* background-color: cadetblue; */
+        float: left;
+    }
+    .search input{
+        margin-top: 13px;
+        border-radius: 10px;
+        height: 42px;
+    }
+    .p-hrt{
+        width: 20%;
+        height: 70px;
+        /* background-color: yellow; */
+        float: left;
+    }
+    .p-hrt img{
+        height: 31px;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    .p-stry{
+        width: 100%;
+        height: 100px;
+        /* background-color: cornflowerblue; */
+        box-shadow: 0px 6px 27px -11px black ;
+    }
+    
+    .story1 {
+        width: 52px;
+        height: 52px;
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 17px;
+        border-radius: 50px;
+        float: left;
+    }
+    .story1 img {
+        height: 51px;
+        width: 51px;
+        border-radius: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .p-post-logo{
+        width: 100%;
+        height: 57px;
+        /* background-color: brown; */
+        margin-top: -70px;
+    }
+    .worldcup-logo {
+        width: 41px;
+        height: 41px;
+        background-color: white;
+        border-radius: 50px;
+        margin-left: -84px;
+        float: left;
+    }
+
+    .icc-logo {
+       width: 41px;
+       height: 41px;
+       background-color: white;
+       border-radius: 50px;
+       margin-left: -66px;
+       margin-top: 13px;
+     }
+    .names{
+        float: left;
+        margin-left: -13px;
+        margin-top: 15px;
+    }
+    .dot-right img {
+        margin-left: 230px;
+        margin-top: -40px;
+        height: 56px;
+        float: left;
+    }
+    .p-post{
+        width: 100%;
+        height: 500px;
+        /* background-color: crimson; */
+        margin-top: -58px;
+    }
+    .post img{
+        margin-left: 54px;
+        height: 500px;
+        width: 387px
+    }
+    .p-footer{
+        width: 100%;
+        height: 40px;
+        /* background-color: yellow; */
+        margin-top: -46px;
+    }
+    .like img {
+        height: 26px;
+        margin-top: 10px;
+        margin-left: -81px
+    }
+    .comment img {
+        margin-left: -38px;
+        height: 26px;
+        margin-top: -54px;
+    }
+    .share img {
+        height: 26px;
+        margin-left: 6px;
+        margin-top: -101px;
+    }
+    .p-likes{
+        width: 100%;
+        height: 35px;
+        /* background-color: burlywood; */
+    }
+    .likes-section p {
+        font-weight: 500;
+        margin-top: 60px;
+        margin-left: -76px;
+    }
+    .p-caption{
+        width: 100%;
+        height: 124px;
+        /* background-color: rgb(204, 204, 217); */
+    }
+    .caption-name p {
+        font-weight: 500;
+        float: left;
+        margin-left: -70px;
+    }
+    .caption-name h6 {
+        margin-left: -40px;
+        margin-top: -59px;
+    }
+    .view-comment1 p {
+        padding: 11px 0px 0px 2px;
+        font-weight: 400;
+        margin-left: -67px;
+    }
+    .add-comment1{
+        margin-left: -59px;
+    }
+    .add-comment1 img {
+        height: 15px;
+        float: right;
+        margin-top: -38px;
+    }
+    .p-post-logo2{
+        width: 100%;
+        height: 59px;
+        /* background-color: burlywood; */
+    }
+    .karan-logo {
+        width: 37px;
+        height: 37px;
+        background-color: white;
+        border-radius: 50px;
+        margin-left: -82px;
+        float: left;
+    }
+    .names p {
+        margin-left: -15px;
+        float: left;
+        font-weight: 600;
+    }
+    .p-post2{
+        width: 100%;
+        height: 500px;
+        /* background-color: brown; */
+    }
+    .p-footer2{
+        width: 100%;
+        height: 100px;
+        background-color: blueviolet;
+    }  
+    .mobfooter{
+        width: 100%;
+        height: 70px;
+        /* background-color: red; */
+    }
+    .mobfooter ul li{
+        list-style-type: none;
+        float: left;
+        width: 25%;
+        height: 100%;
+        text-align: center;
+    }
+    .mobfooter img{
+        height: 27px;
+        margin-left: -93px;
+    }
+    
+    .moblikes {
+        width: 100%;
+        height: 60px;
+        /* background-color: burlywood; */
+        margin-top: -88px;
+    }
+    .mob-caption{
+        width: 100%;
+        height: 200px;
+        /* background-color: brown; */
+        margin-top: -66px;
+    }
+    .caption-name p {
+        font-weight: 500;
+        float: left;
+        margin-left: -87px;
+        margin-top: -16px;
+    }
+    .caption-name img {
+        height: 28px;
+        margin-top: -17px;
+    }
+    .caption-name h5 {
+        margin-left: -34px;
+        margin-top: -63px;
+        font-size: 14px;
+    }
+    .caption-name h6 {
+        margin-left: 62px;
+        margin-top: -42px;
+    }
+}
